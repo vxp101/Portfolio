@@ -1,0 +1,69 @@
+/* Decorates Header */
+header {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+/* Fits image to screen */
+img {
+    width: 200px;
+    height: 300px;
+}
+/* creates background thats easier on the eyes */
+html {
+    background-color: lightslategrey;
+}
+/* Decorates all the sections in article */
+article {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightgray;
+    height: 350px;
+    border: .5px solid black;
+}
+
+/* Makes intro work with screen */
+.intro {
+    height: 350px;
+    border: .5px solid black;
+    margin: 0px;
+}
+
+/* Condenses code so there isn't allot to look at */
+.intro, .languages {
+    width: 200px;
+}
+/* Fixes about to not touch everything and sets width to 450px */
+.about {
+    padding: 30px;
+    width: 450px;
+}
+
+/* Lines the 3 next to each other */
+.languages, .about, .intro {
+    float: left;
+}
+/* Centers and colors footers background to grey */
+footer {
+    text-align: center;
+    border: .5px solid darkgray;
+    background-color: rgb(177, 196, 196);
+}
+
+
+/* All down contribute to changing the color according to whats done
+ anchor tags */
+a:link {
+    color: rgb(148, 131, 109);
+}
+
+a:visited {
+    color: rgb(112, 82, 36)
+}
+
+a:hover {
+    color: rgb(148, 20, 20);
+}
+
+a:active {
+    color: rgb(46, 15, 15);
+}
