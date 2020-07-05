@@ -67,3 +67,12 @@ a:hover {
 a:active {
     color: rgb(46, 15, 15);
 }
+
+@media screen and (max-width: 900px){
+    img, .about, .intro {
+        position: relative;
+    }
+    article {
+        height: 700px
+    }
+}
