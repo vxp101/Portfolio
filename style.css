@@ -32,16 +32,15 @@ article h2, .intro{
     float: left;
 }
 
+.learning-languages {
+    display: flex;
+    list-style-position: inside;
+    text-align: center;
+}
 /* Fixes about to not touch everything and sets width to 450px */
 .about {
     text-align: center;
 }
-/* Lines the 3 next to each other */
-.learning, .languages {
-    float: left;
-}
-
-
 /* Centers and colors footers background to grey */
 footer {
     text-align: center;
@@ -73,6 +72,30 @@ a:active {
         position: relative;
     }
     article {
-        height: 700px
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .learning-languages {
+        text-align: left;
+        display: initial;
+    }
+    .image {
+        width: auto;
+        float: none;
+    }
+
+    img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
+    article h3 {
+        font-size: 10px;
+    }
+
+    footer {
+        font-size: 10px;
     }
 }
