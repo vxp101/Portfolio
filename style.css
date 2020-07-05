@@ -16,7 +16,7 @@ html {
 }
 /* Decorates all the sections in article */
 article {
-    height: 500px;
+    height: 600px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: lightgray;
     border: .5px solid black;
@@ -71,9 +71,7 @@ a:active {
     img, .about, .intro {
         position: relative;
     }
-    .intro {
-        padding: 20px;
-    }
+
     img {
         font-size: 20px;
     }
