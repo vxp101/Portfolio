@@ -11,37 +11,37 @@ img {
 }
 /* creates background thats easier on the eyes */
 html {
+    margin: 10px;
     background-color: lightslategrey;
 }
 /* Decorates all the sections in article */
 article {
+    height: 500px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: lightgray;
-    height: 350px;
     border: .5px solid black;
 }
 
-/* Makes intro work with screen */
-.intro {
-    height: 350px;
+article h2, .intro{
+    text-align: center;
+}
+
+
+.image {
     border: .5px solid black;
-    margin: 0px;
-}
-
-/* Condenses code so there isn't allot to look at */
-.intro, .languages {
-    width: 200px;
-}
-/* Fixes about to not touch everything and sets width to 450px */
-.about {
-    padding: 30px;
-    width: 450px;
-}
-
-/* Lines the 3 next to each other */
-.languages, .about, .intro {
     float: left;
 }
+
+/* Fixes about to not touch everything and sets width to 450px */
+.about {
+    text-align: center;
+}
+/* Lines the 3 next to each other */
+.learning, .languages {
+    float: left;
+}
+
+
 /* Centers and colors footers background to grey */
 footer {
     text-align: center;
