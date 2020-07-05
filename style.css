@@ -71,6 +71,9 @@ a:active {
     img, .about, .intro {
         position: relative;
     }
+    img {
+        font-size: 20px;
+    }
     article {
         height: auto;
     }
@@ -96,6 +99,7 @@ a:active {
     }
 
     footer {
-        font-size: 10px;
+        font-size:
+
     }
 }
